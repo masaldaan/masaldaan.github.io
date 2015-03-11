@@ -2,7 +2,10 @@
 published: true
 ---
 
-## First!!!
+---
+layout: post
+title: First!!!
+---
 
 A(nother) first post to mark the beginning of my blog here on github pages.
 
