@@ -1,6 +1,7 @@
 ---
-layout: post
-title: First!!!
+title: "First!!!"
+date: 2015-03-11
+draft: false
 ---
 
 A(nother) first post to mark the beginning of my blog here on github pages.

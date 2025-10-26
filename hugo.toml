@@ -1,0 +1,53 @@
+baseURL = "https://masaldaan.com"
+languageCode = "en-us"
+title = "Sidharth Masaldaan - Principal Engineer"
+theme = "PaperMod"
+
+[params]
+  description = "Engineering leadership, distributed systems, and architectural patterns from 20 years of building at scale"
+  author = "Sidharth Masaldaan"
+  keywords = ["principal engineer", "distributed systems", "architecture", "engineering leadership"]
+  
+  # Social links
+  [[params.social]]
+    name = "LinkedIn"
+    url = "https://linkedin.com/in/sidharthmasaldaan"
+  [[params.social]]
+    name = "GitHub"
+    url = "https://github.com/masaldaan"
+  [[params.social]]
+    name = "Email"
+    url = "mailto:sidharth.masaldaan@gmail.com"
+
+  # Enable code highlighting
+  pygmentsUseClasses = true
+  pygmentsCodeFences = true
+
+[menu]
+  [[menu.main]]
+    name = "Articles"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+    lineNos = true
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"

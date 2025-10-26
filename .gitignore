@@ -1,9 +1,18 @@
-_site
+# Hugo
+/public/
+/resources/_gen/
+hugo_stats.json
+
+# OS
 .DS_Store
-.jekyll
-.bundle
-.sass-cache
-Gemfile
-Gemfile.lock
-node_modules
-package.json
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary
+.hugo_build.lock
