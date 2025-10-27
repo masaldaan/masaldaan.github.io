@@ -1,7 +1,10 @@
 ---
 title: "First!!!"
-date: 2015-03-11
+date: 2015-03-11T00:00:00+00:00
+slug: the-beginning
 draft: false
+tags: []
+categories: []
 ---
 
 A(nother) first post to mark the beginning of my blog here on github pages.

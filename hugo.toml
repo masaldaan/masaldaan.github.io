@@ -51,3 +51,6 @@ theme = "PaperMod"
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+[permalinks]
+  posts = "/posts/:slug/"
